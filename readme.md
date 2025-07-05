@@ -1,5 +1,5 @@
 RAG Chatbot
-A Retrieval-Augmented Generation chatbot that uses sentence-aware chunked PDF content, FAISS vector search, and Groq-hosted LLMs (Mistral-7B) to provide accurate, source-backed answers via a Streamlit interface.
+A Retrieval-Augmented Generation chatbot that uses sentence-aware chunked PDF content, FAISS vector search, and Groq-hosted LLMs (llama-3.1-8b-instant) to provide accurate, source-backed answers via a Streamlit interface.
 
 
 1. Project Architecture and Flow:
@@ -32,7 +32,7 @@ A Retrieval-Augmented Generation chatbot that uses sentence-aware chunked PDF co
 
 3. Models choices
     a. Model used to generate embeddings : all-MiniLM-L6-v2
-    b. LLM model used to answer the query : llama-3-8b via Groq API
+    b. LLM model used to answer the query : llama-3.1-8b-instant via Groq API
     Reason:
      - easy to set up on windows
      - No need to download model and set it up (using Ollama)
